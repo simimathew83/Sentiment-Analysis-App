@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code settings (optional)
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Environment variables
+.env
