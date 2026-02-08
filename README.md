@@ -23,16 +23,26 @@ It also displays the sentiment polarity score.
 
 ```bash
     python -m venv venv
+```
 
-2.Activate the virtual environment:
+2. Activate the virtual environment:
+
+```bash
     .\venv\Scripts\Activate
+```
 
 3. Install dependencies
+
+```bash
     pip install -r requirements.txt
     python -m textblob.download_corpora
+```
 
 4. Run the application:
+
+```bash
     streamlit run app.py
+```
 
 
 ##Files:
