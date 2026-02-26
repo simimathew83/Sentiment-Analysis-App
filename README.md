@@ -1,9 +1,7 @@
-# Sentiment Analysis App
-
+## Sentiment Analysis App
 A simple Python Streamlit application that analyzes the sentiment of user-entered text using TextBlob.
 
 ## Description
-
 This app allows a user to enter a sentence and determines whether the sentiment is:
 - Positive
 - Negative
@@ -12,47 +10,40 @@ This app allows a user to enter a sentence and determines whether the sentiment 
 It also displays the sentiment polarity score.
 
 ## Tech Stack
-
 - Python
 - Streamlit
 - TextBlob
 
 ## How to Run (Windows)
-
-1. Create a virtual environment:
-
+### 1. Create a virtual environment:
 ```bash
     python -m venv venv
 ```
 
-2. Activate the virtual environment:
-
+### 2. Activate the virtual environment:
 ```bash
-    .\venv\Scripts\Activate
+    .\venv\Scripts\Activate.ps1
 ```
 
-3. Install dependencies
-
+### 3. Install dependencies
 ```bash
     pip install -r requirements.txt
     python -m textblob.download_corpora
 ```
 
-4. Run the application:
-
+### 4. Run the application:
 ```bash
     streamlit run app.py
 ```
 
 
-##Files:
-app.py – Streamlit application code
-requirements.txt – Project dependencies
-README.md – Project documentation
+## Files:
+- app.py – Streamlit application code
+- requirements.txt – Project dependencies
+- README.md – Project documentation
 
 
-##Output
+## Output
 The app displays:
-
 - Sentiment category (positive / negative / neutral)
 - Sentiment polarity score
